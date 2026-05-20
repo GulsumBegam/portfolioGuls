@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gulsum Begam — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Josefin+Sans:wght@100;200;300;400;600;700&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- CURSOR -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- PARTICLES -->
+<div class="particles" id="particles"></div>
+
+<!-- FLOATING ORBS -->
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<!-- CANVAS -->
+<canvas id="bg-canvas"></canvas>
+
+<div class="wrapper">
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">G · B</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="cube-container">
+    <div class="cube">
+      <div class="cube-face front"></div>
+      <div class="cube-face back"></div>
+      <div class="cube-face left"></div>
+      <div class="cube-face right"></div>
+      <div class="cube-face top"></div>
+      <div class="cube-face bottom"></div>
+    </div>
+  </div>
+
+  <div class="hero-tag"><span>const </span>developer <span>= </span>"<span id="typed-text"></span>"</div>
+  <h1 class="hero-name">
+    <span style="color:rgba(254,249,240,0.85); font-size:0.6em; letter-spacing:4px; font-weight:300; font-family:'Josefin Sans',sans-serif; font-style:normal;">HELLO, I'M</span>
+    <span class="gold shimmer">Gulsum Begam</span>
+  </h1>
+  <div class="hero-title">Full Stack Developer &nbsp;·&nbsp; AI & ML &nbsp;·&nbsp; IoT &nbsp;·&nbsp; UI/UX Designer</div>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <span class="hero-stat-num" data-count="7">0</span>
+      <div class="hero-stat-label">Projects</div>
+    </div>
+    <div class="hero-stat">
+      <span class="hero-stat-num" data-count="3">0</span>
+      <div class="hero-stat-label">Internships</div>
+    </div>
+    <div class="hero-stat">
+      <span class="hero-stat-num" data-count="10">0</span>
+      <div class="hero-stat-label">Technologies</div>
+    </div>
+    <div class="hero-stat">
+      <span class="hero-stat-num" data-count="300">0</span>
+      <div class="hero-stat-label">Students Led</div>
+    </div>
+  </div>
+  <a href="#projects" class="hero-cta">View My Work</a>
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    <span class="scroll-text">Scroll</span>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header reveal">
+    <span class="section-num">01</span>
+    <h2 class="section-title-text">About <em>Me</em></h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      MCA student graduating <em>May 2026</em>, with a deep passion for building things that live on the internet. From <em>AI-powered chatbots</em> to <em>IoT farm security systems</em>, I create real solutions to real problems. I believe in learning by building — and I've built <em>7 projects</em> to prove it.
+    </div>
+    <div class="reveal">
+      <div class="about-detail">
+        <span class="about-detail-label">Location</span>
+        <span class="about-detail-val">Sattur, Virudhunagar, TN</span>
+      </div>
+      <div class="about-detail">
+        <span class="about-detail-label">Education</span>
+        <span class="about-detail-val">MCA — Madurai Kamaraj University<br><span style="font-size:11px;color:rgba(254,249,240,0.35);">B.Sc CS · GPA 7.73</span></span>
+      </div>
+      <div class="about-detail">
+        <span class="about-detail-label">Graduation</span>
+        <span class="about-detail-val">May 2026</span>
+      </div>
+      <div class="about-detail">
+        <span class="about-detail-label">Email</span>
+        <span class="about-detail-val">gulsumbegamofficial@gmail.com</span>
+      </div>
+      <div class="about-detail">
+        <span class="about-detail-label">Target</span>
+        <span class="about-detail-val" style="color:rgba(212,168,67,0.7);">Chennai · Bangalore</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header reveal">
+    <span class="section-num">02</span>
+    <h2 class="section-title-text">Selected <em>Projects</em></h2>
+    <div class="section-line"></div>
+  </div>
+
+  <!-- STAR PROJECTS -->
+  <div style="font-size:10px;letter-spacing:4px;color:var(--gold-dark);text-transform:uppercase;margin-bottom:24px;" class="reveal">⭐ Highlight Projects</div>
+  <div class="star-projects">
+
+    <div class="project-card star reveal" id="card1">
+      <div class="card-glow"></div>
+      <div class="card-number">01</div>
+      <span class="card-icon">🤖</span>
+      <div class="card-star-badge">★ Best Project</div>
+      <div class="card-title">Moon AI Chatbot</div>
+      <div class="card-desc">Full stack conversational AI web application with real-time responses, custom backend API routes, and a Prisma database for persistent chat storage. Space-themed glass morphism UI.</div>
+      <div class="card-tech">
+        <span class="tech-pill">Next.js 15</span>
+        <span class="tech-pill">TypeScript</span>
+        <span class="tech-pill">ZAI SDK</span>
+        <span class="tech-pill">Prisma ORM</span>
+        <span class="tech-pill">REST API</span>
+        <span class="tech-pill">Tailwind CSS</span>
+        <span class="tech-pill">shadcn/ui</span>
+      </div>
+      <div class="card-impact">End-to-end full stack app — frontend, backend, AI integration & database in one.</div>
+    </div>
+
+    <div class="project-card star reveal" id="card2" style="transition-delay:0.15s">
+      <div class="card-glow"></div>
+      <div class="card-number">02</div>
+      <span class="card-icon">♟️</span>
+      <div class="card-star-badge">★ Best Project</div>
+      <div class="card-title">3D Chess Game with AI Opponent</div>
+      <div class="card-desc">Interactive 3D chess game where the player battles a computer AI. Full 3D board rendering, complete legal move validation, and an intelligent AI engine that calculates moves automatically.</div>
+      <div class="card-tech">
+        <span class="tech-pill">HTML</span>
+        <span class="tech-pill">CSS</span>
+        <span class="tech-pill">JavaScript</span>
+        <span class="tech-pill">3D Rendering</span>
+        <span class="tech-pill">Game AI Logic</span>
+      </div>
+      <div class="card-impact">Rare fresher project — demonstrates 3D UI, game logic, and AI opponent design.</div>
+    </div>
+
+  </div>
+
+  <!-- MINI PROJECTS -->
+  <div style="font-size:10px;letter-spacing:4px;color:var(--gold-dark);text-transform:uppercase;margin:50px 0 24px;" class="reveal">Other Projects</div>
+  <div class="mini-projects">
+
+    <div class="mini-card reveal">
+      <span class="mini-icon">🌾</span>
+      <div class="mini-title">Farmatron Sentinel</div>
+      <div class="mini-desc">IoT farm security — ESP32-CAM + ML with 98% accuracy. Reduced crop damage by 80%. Built with real hardware.</div>
+      <div class="card-tech">
+        <span class="tech-pill">ESP32-CAM</span>
+        <span class="tech-pill">Arduino</span>
+        <span class="tech-pill">Edge Impulse</span>
+      </div>
+    </div>
+
+    <div class="mini-card reveal" style="transition-delay:0.1s">
+      <span class="mini-icon">🩺</span>
+      <div class="mini-title">Disease Predictor</div>
+      <div class="mini-desc">Real-time Python desktop app. Detects crop diseases from live user input. Helps farmers identify problems early.</div>
+      <div class="card-tech">
+        <span class="tech-pill">Python</span>
+        <span class="tech-pill">ML</span>
+      </div>
+    </div>
+
+    <div class="mini-card reveal" style="transition-delay:0.2s">
+      <span class="mini-icon">🔐</span>
+      <div class="mini-title">Login Portal System</div>
+      <div class="mini-desc">Multi-page login system with JS form validation, responsive nav, plan comparison table. Built at Futurik internship.</div>
+      <div class="card-tech">
+        <span class="tech-pill">HTML</span>
+        <span class="tech-pill">Tailwind CSS</span>
+        <span class="tech-pill">JavaScript</span>
+      </div>
+    </div>
+
+    <div class="mini-card reveal" style="transition-delay:0.1s">
+      <span class="mini-icon">📄</span>
+      <div class="mini-title">PDF Page Flip Reader</div>
+      <div class="mini-desc">Web app with book-like page flip animations for PDFs. Smooth transitions and engaging reading experience.</div>
+      <div class="card-tech">
+        <span class="tech-pill">HTML</span>
+        <span class="tech-pill">CSS</span>
+        <span class="tech-pill">JavaScript</span>
+      </div>
+    </div>
+
+    <div class="mini-card reveal" style="transition-delay:0.2s">
+      <span class="mini-icon">🌸</span>
+      <div class="mini-title">Poem Creator App</div>
+      <div class="mini-desc">Generates creative poems from user input. Clean minimal web interface with dynamic content generation.</div>
+      <div class="card-tech">
+        <span class="tech-pill">HTML</span>
+        <span class="tech-pill">CSS</span>
+        <span class="tech-pill">JavaScript</span>
+      </div>
+    </div>
+
+    <div class="mini-card reveal" style="transition-delay:0.3s">
+      <span class="mini-icon">🔷</span>
+      <div class="mini-title">Fractal Generator</div>
+      <div class="mini-desc">Interactive Python app visualizing mathematical fractals in real-time with GUI controls and live rendering.</div>
+      <div class="card-tech">
+        <span class="tech-pill">Python</span>
+        <span class="tech-pill">Tkinter</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-header reveal">
+    <span class="section-num">03</span>
+    <h2 class="section-title-text">Technical <em>Skills</em></h2>
+    <div class="section-line"></div>
+  </div>
+  
+
+  <div class="skills-tags-container">
+
+    <div class="skill-tag-group reveal">
+      <div class="skill-tag-title">Frontend & Frameworks</div>
+      <div class="skill-tags">
+        <span class="skill-tag">React.js</span>
+        <span class="skill-tag">Next.js 15</span>
+        <span class="skill-tag">HTML5</span>
+        <span class="skill-tag">CSS3</span>
+        <span class="skill-tag">Tailwind CSS</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">TypeScript</span>
+        <span class="skill-tag">Flutter</span>
+        <span class="skill-tag">shadcn/ui</span>
+      </div>
+    </div>
+
+    <div class="skill-tag-group reveal" style="transition-delay:0.1s">
+      <div class="skill-tag-title">Backend & Databases</div>
+      <div class="skill-tags">
+        <span class="skill-tag">PHP</span>
+        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">REST APIs</span>
+        <span class="skill-tag">Prisma ORM</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">MongoDB</span>
+        <span class="skill-tag">CRUD Operations</span>
+      </div>
+    </div>
+
+    <div class="skill-tag-group reveal" style="transition-delay:0.2s">
+      <div class="skill-tag-title">AI · ML · IoT</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">TensorFlow</span>
+        <span class="skill-tag">PyTorch</span>
+        <span class="skill-tag">ZAI SDK</span>
+        <span class="skill-tag">Edge Impulse</span>
+        <span class="skill-tag">ESP32-CAM</span>
+        <span class="skill-tag">Arduino IDE</span>
+        <span class="skill-tag">AI API Integration</span>
+      </div>
+    </div>
+
+    <div class="skill-tag-group reveal" style="transition-delay:0.3s">
+      <div class="skill-tag-title">Tools & Design</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">GitHub</span>
+        <span class="skill-tag">Vercel</span>
+        <span class="skill-tag">Netlify</span>
+        <span class="skill-tag">Postman</span>
+        <span class="skill-tag">VS Code</span>
+        <span class="skill-tag">Canva</span>
+        <span class="skill-tag">Adobe Illustrator</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-header reveal">
+    <span class="section-num">04</span>
+    <h2 class="section-title-text">Work <em>Experience</em></h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="experience-timeline">
+
+    <div class="exp-item reveal">
+      <div class="exp-dot"></div>
+      <div class="exp-date">Jul 2025 — Aug 2025</div>
+      <div class="exp-company">Futurik Technology</div>
+      <div class="exp-role">Full Stack Development & Cloud Hosting Intern · Madurai</div>
+      <ul class="exp-bullets">
+        <li>Built a Login Portal System using HTML, Tailwind CSS, and JavaScript with form validation, responsive navigation, and a plan comparison table.</li>
+        <li>Implemented interactive JavaScript features including field validation, keyboard events (onclick, onfocus, onblur), and confirmation alerts.</li>
+        <li>Designed mobile-responsive layouts using CSS Flexbox and Grid across all screen sizes.</li>
+        <li>Deployed project using GitHub Pages and Netlify — gaining hands-on cloud hosting experience.</li>
+      </ul>
+    </div>
+
+    <div class="exp-item reveal">
+      <div class="exp-dot"></div>
+      <div class="exp-date">Nov 2024 — Jan 2025</div>
+      <div class="exp-company">Hashan Medicare</div>
+      <div class="exp-role">IoT Project Intern · Rajapalayam</div>
+      <ul class="exp-bullets">
+        <li>Built Farmatron Sentinel — a real hardware IoT system using ESP32-CAM and Arduino IDE for smart farm security.</li>
+        <li>Achieved 98% ML detection accuracy using Edge Impulse for real-time animal identification.</li>
+        <li>Reduced manual crop supervision by 80% through automated deterrence alerts via Blynk.</li>
+      </ul>
+    </div>
+
+    <div class="exp-item reveal">
+      <div class="exp-dot"></div>
+      <div class="exp-date">Jun 2023 — Jul 2023</div>
+      <div class="exp-company">Vue.js Internship</div>
+      <div class="exp-role">Web Development Intern</div>
+      <ul class="exp-bullets">
+        <li>Built responsive UI components using Vue.js, focusing on component-based architecture.</li>
+        <li>Created mobile-friendly layouts that adapt seamlessly across different screen sizes.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- LEADERSHIP -->
+<section>
+  <div class="section-header reveal">
+    <span class="section-num">05</span>
+    <h2 class="section-title-text">Leadership & <em>Responsibility</em></h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="leadership-grid">
+    <div class="leadership-card reveal">
+      <div class="leadership-icon">👑</div>
+      <div class="leadership-title">President, MCA Department</div>
+      <div class="leadership-sub">2025 – 2026 &nbsp;·&nbsp; 300 Students<br>Led and represented 300+ MCA students, organized department-level events, coordinated between faculty and students, and managed all department responsibilities.</div>
+    </div>
+    <div class="leadership-card reveal" style="transition-delay:0.15s">
+      <div class="leadership-icon">🎓</div>
+      <div class="leadership-title">Class Representative</div>
+      <div class="leadership-sub">3rd Semester &nbsp;·&nbsp; 30 Students<br>Served as the primary communication bridge between 30 students and faculty. Coordinated academic activities and ensured smooth semester operations.</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <div class="contact-glow"></div>
+  <div class="contact-title reveal">Let's <em>Connect</em></div>
+  <div class="contact-sub reveal">Available for full stack developer roles in Chennai & Bangalore</div>
+  <div class="contact-links reveal">
+    <a href="mailto:gulsumbegamofficial@gmail.com" class="contact-link">
+      <span class="contact-link-icon">✉️</span>
+      <span class="contact-link-label">Email</span>
+      <span class="contact-link-val">gulsumbegamofficial@gmail.com</span>
+    </a>
+    <a href="https://github.com/GulsumBegam" target="_blank" class="contact-link">
+      <span class="contact-link-icon">🐙</span>
+      <span class="contact-link-label">GitHub</span>
+      <span class="contact-link-val">github.com/GulsumBegam</span>
+    </a>
+    <a href="https://linkedin.com/in/gulsumbegam" target="_blank" class="contact-link">
+      <span class="contact-link-icon">💼</span>
+      <span class="contact-link-label">LinkedIn</span>
+      <span class="contact-link-val">linkedin.com/in/gulsumbegam</span>
+    </a>
+    <a href="https://gulsumportfolio.github.io" target="_blank" class="contact-link">
+      <span class="contact-link-icon">🌐</span>
+      <span class="contact-link-label">Portfolio</span>
+      <span class="contact-link-val">gulsumportfolio.github.io</span>
+    </a>
+    <a href="tel:9361061756" class="contact-link">
+      <span class="contact-link-icon">📞</span>
+      <span class="contact-link-label">Phone</span>
+      <span class="contact-link-val">9361061756</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-copy">© 2026 Gulsum Begam · All Rights Reserved</div>
+  <div class="footer-logo">G · B</div>
+</footer>
+
+</div><!-- end wrapper -->
+
+
+  <script src="script.js"></script>
+</body>
+</html>
