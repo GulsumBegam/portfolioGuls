@@ -2,7 +2,7 @@
 
 > *Full Stack Developer · AI & ML Enthusiast · IoT Builder · UI/UX Designer*
 
-[![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Now-d4a843?style=for-the-badge)](https://gulsumportfolio.github.io)
+[![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Now-d4a843?style=for-the-badge)]( https://gulsumbegam.github.io/portfolioGuls/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/gulsumbegam)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/GulsumBegam)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail)](mailto:gulsumbegamofficial@gmail.com)
