@@ -2,7 +2,7 @@
    Gulsum Begam — Portfolio JavaScript
    Cursor · Typing · Particles · 3D Tilt · Canvas
 ================================================ */
-
+ 
 // ── CURSOR ──
 const cursor = document.getElementById('cursor');
 const ring = document.getElementById('cursor-ring');
@@ -32,9 +32,9 @@ document.querySelectorAll('a, button, .project-card, .mini-card').forEach(el => 
     ring.style.height = '36px';
   });
 });
-
+ 
 // ── TYPING EFFECT ──
-const words = ['Full Stack Developer', 'AI Enthusiast', 'IoT Builder', 'UI/UX Designer', 'Problem Solver'];
+const words = ['Full Stack Developer', 'AI & ML Engineer', 'IoT Builder', 'UI/UX Designer', 'Problem Solver', 'MCA Graduate 2026'];
 let wi = 0, ci = 0, deleting = false;
 const el = document.getElementById('typed-text');
 function type() {
@@ -51,7 +51,7 @@ function type() {
   setTimeout(type, deleting ? 60 : 100);
 }
 setTimeout(type, 1500);
-
+ 
 // ── COUNTER ANIMATION ──
 function animateCount(el) {
   const target = parseInt(el.dataset.count);
@@ -71,14 +71,14 @@ const counterObserver = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) { animateCount(e.target); counterObserver.unobserve(e.target); } });
 }, { threshold: 0.5 });
 counters.forEach(c => counterObserver.observe(c));
-
+ 
 // ── SCROLL REVEAL ──
 const reveals = document.querySelectorAll('.reveal');
 const revealObserver = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
 }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
 reveals.forEach(r => revealObserver.observe(r));
-
+ 
 // ── SKILL BARS ──
 const skillObserver = new IntersectionObserver(entries => {
   entries.forEach(e => {
@@ -88,7 +88,7 @@ const skillObserver = new IntersectionObserver(entries => {
   });
 }, { threshold: 0.3 });
 document.querySelectorAll('.skills-group').forEach(g => skillObserver.observe(g));
-
+ 
 // ── 3D CARD TILT ──
 document.querySelectorAll('.project-card').forEach(card => {
   card.addEventListener('mousemove', e => {
@@ -105,7 +105,7 @@ document.querySelectorAll('.project-card').forEach(card => {
     card.style.transform = '';
   });
 });
-
+ 
 // ── PARTICLES ──
 const particleContainer = document.getElementById('particles');
 for (let i = 0; i < 40; i++) {
@@ -118,7 +118,7 @@ for (let i = 0; i < 40; i++) {
   p.style.opacity = Math.random() * 0.5;
   particleContainer.appendChild(p);
 }
-
+ 
 // ── CANVAS STAR FIELD ──
 const canvas = document.getElementById('bg-canvas');
 const ctx = canvas.getContext('2d');
@@ -165,7 +165,7 @@ function drawStars() {
   requestAnimationFrame(drawStars);
 }
 drawStars();
-
+ 
 // ── SMOOTH SCROLL ──
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
@@ -174,7 +174,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 });
-
+ 
 // ── GOLD GLOW ON SCROLL ──
 window.addEventListener('scroll', () => {
   const scrolled = window.scrollY / (document.body.scrollHeight - window.innerHeight);
