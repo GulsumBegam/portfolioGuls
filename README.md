@@ -1,164 +1,167 @@
-# ✨ Gulsum Begam — Personal Portfolio
+<div align="center">
 
-> *Full Stack Developer · AI & ML Enthusiast · IoT Builder · UI/UX Designer*
+# ✦ Gulsum Begam
 
-[![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Now-d4a843?style=for-the-badge)]( https://gulsumbegam.github.io/portfolioGuls/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/gulsumbegam)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/GulsumBegam)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail)](mailto:gulsumbegamofficial@gmail.com)
+### Full-Stack Developer · UI/UX Developer · Computer Vision Developer
 
----
+[![Portfolio](https://img.shields.io/badge/Portfolio-gulsumportfolio.github.io-c8a96e?style=flat-square&logo=github)](https://gulsumportfolio.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-gulsum--begam-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/gulsumbegam)
+[![GitHub](https://img.shields.io/badge/GitHub-GulsumBegam-181717?style=flat-square&logo=github)](https://github.com/GulsumBegam)
+[![Email](https://img.shields.io/badge/Email-gulsumbegamofficial@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:gulsumbegamofficial@gmail.com)
 
-## 🎨 About This Portfolio
+> *MCA graduate (May 2026) shipping production-ready full-stack apps, AI-powered systems, and IoT solutions — from day one.*
 
-A **golden-themed interactive portfolio** built with pure HTML, CSS, and JavaScript — featuring:
-
-- 🌟 **3D card tilt animations** on project cards
-- ✨ **Custom golden cursor** with glow trail
-- 🌌 **Animated star field** on canvas background
-- 💫 **Floating particle system**
-- ⌨️ **Typing effect** in the hero section
-- 🔢 **Animated counters** for stats
-- 📜 **Scroll reveal animations** throughout
-- 🎯 **Fully responsive** on all devices
+</div>
 
 ---
 
-## 🗂️ Project Structure
+## 👩‍💻 About Me
 
-```
-portfolio/
-├── index.html      → Page structure & content
-├── style.css       → Golden aesthetic, glow effects, 3D animations
-├── script.js       → Cursor, typing, particles, canvas, interactions
-└── README.md       → You are here! 😊
-```
+I'm a full-stack developer based in **Sattur, Virudhunagar, TN**, graduating with an MCA from **The Standard Fireworks Rajaratnam College for Women, Madurai Kamaraj University** (May 2026). I build scalable, end-to-end applications using modern stacks — Next.js 15, TypeScript, PostgreSQL, and AI APIs.
 
----
-
-## 🛠️ Built With
-
-| Technology | Purpose |
-|------------|---------|
-| **HTML5** | Page structure & semantic markup |
-| **CSS3** | Golden aesthetic, animations, 3D effects, glow |
-| **JavaScript (ES6+)** | Interactivity, canvas, cursor, typing effect |
-| **Google Fonts** | Cormorant Garamond · Josefin Sans · Fira Code |
-| **Canvas API** | Animated star field background |
+- 🤖 Experienced integrating **Groq** and **Anthropic AI APIs** into production apps
+- 🌐 Designed REST backends with real-world authentication and persistence
+- 📡 Built **IoT systems** achieving **98% ML detection accuracy** on physical hardware
+- 🎓 Led **300+ students** as MCA Department President
+- 🎯 Seeking a Full-Stack Developer role to contribute scalable solutions from day one
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Key Projects
 
-### ⭐ Moon AI Chatbot
-> Full stack AI web app with real-time responses, custom REST API, Prisma database, and a space-themed glass morphism UI.
-> **Tech:** Next.js 15 · TypeScript · ZAI SDK · Prisma ORM · Tailwind CSS · shadcn/ui
+### 🌙 Moon AI Chatbot
+**Live →** [moonaichatbot.vercel.app](https://moonaichatbot.vercel.app) · [GitHub](https://github.com/GulsumBegam)
 
-### ⭐ 3D Chess Game with AI Opponent
-> Interactive 3D chess game where the player battles a computer AI with legal move validation and intelligent move calculation.
-> **Tech:** HTML · CSS · JavaScript · 3D Rendering
+`Next.js 15` `TypeScript` `Groq AI (Llama 3.3 70B)` `Prisma ORM` `Neon PostgreSQL` `Tailwind CSS` `Framer Motion`
 
-### 🌾 Farmatron Sentinel — IoT Farm Security
-> Real hardware IoT system with 98% ML detection accuracy. Reduced crop damage by 80%.
-> **Tech:** ESP32-CAM · Arduino IDE · Edge Impulse · Blynk · ML
+A production-deployed, end-to-end AI chatbot built in a single TypeScript codebase.
 
-### 🩺 Agriculture Disease Prediction App
-> Real-time Python desktop app that detects crop diseases from live user input.
-> **Tech:** Python · Machine Learning
-
-### 📄 PDF Page Flip Reader
-> Web app that displays PDFs in a realistic book-like page-flip format.
-> **Tech:** HTML · CSS · JavaScript
-
-### 🌸 Poem Creator App
-> Generates creative poems from user input with a clean minimal UI.
-> **Tech:** HTML · CSS · JavaScript
-
-### 🔷 Fractal Generation Using Python
-> Interactive Python app visualizing mathematical fractals in real-time.
-> **Tech:** Python · Tkinter GUI
+- Custom REST API routes with AI integration and PostgreSQL persistence
+- Persistent multi-conversation history with markdown rendering
+- Animated glassmorphism UI with copy-to-clipboard — shipped and live
+- 5 REST endpoints: `POST /api/chat`, `GET/DELETE/PATCH /api/history/:id`
 
 ---
 
-## 💼 Work Experience
+### ♟️ Royal Mind Arena
+**Live →** [royal-mind-arena.vercel.app](https://royal-mind-arena.vercel.app) · [GitHub](https://github.com/GulsumBegam)
 
-- 🏢 **Futurik Technology, Madurai** — Full Stack & Cloud Hosting Intern *(Jul–Aug 2025)*
-- 🏥 **Hashan Medicare, Rajapalayam** — IoT Project Intern *(Nov 2024–Jan 2025)*
-- 💻 **Vue.js Internship** — Web Development Intern *(Jun–Jul 2023)*
+`Next.js 15` `TypeScript` `Anthropic AI` `Drizzle ORM` `Neon PostgreSQL` `Tailwind CSS`
+
+An AI-powered chess platform with a personal AI companion.
+
+- Full legal move validation, game history persistence, and Vercel deployment
+- Uses **Drizzle ORM** (vs Prisma in Moon AI) — demonstrating adaptability across two different database tooling choices
+- AI companion "Selen" provides real-time analysis and guidance
+
+---
+
+### 👁️ Face Recognition Attendance System
+[GitHub Repo](https://github.com/GulsumBegam)
+
+`Python` `DeepFace` `OpenCV` `SQLite` `Tkinter`
+
+An AI-powered real-time attendance management system.
+
+- Automated student verification using facial recognition
+- Desktop app integrating DeepFace + OpenCV + SQLite with live webcam detection
+- CSV export and duplicate attendance prevention
+
+---
+
+## 🧪 Academic Projects
+
+### 🌿 Farmatron Sentinel
+[github.com/GulsumBegam/farmatron-sentinel](https://github.com/GulsumBegam/farmatron-sentinel)
+
+`ESP32-CAM` `Arduino IDE` `Edge Impulse` `Blynk` `Embedded ML`
+
+A real hardware IoT Smart Fence with animal detection using ML.
+
+- **98% ML detection accuracy** for animal identification on physical ESP32-CAM hardware
+- Reduced crop damage by **80%** via automated alerts
+- Edge ML model trained and deployed on physical hardware — not a simulation
+
+---
+
+### 🌀 Interactive Fractal Visualization
+[github.com/GulsumBegam/fractal](https://github.com/GulsumBegam/fractal)
+
+`HTML` `CSS` `JavaScript` `GitHub Pages` `Canvas API`
+
+An interactive fractal visualization web app with real-time rendering and dynamic zoom for mathematical pattern exploration. Canvas-based graphics rendering with responsive UI deployed on GitHub Pages.
+
+---
+
+## 💼 Experience
+
+### Full Stack Dev & Cloud Intern — Futurik Technology, Madurai
+**Jul 2025 – Aug 2025**
+
+- Delivered a complete Login Portal System: responsive UI, JS form validation, plan comparison table — deployed live on Netlify
+- Gained end-to-end production deployment experience with Netlify and GitHub Pages
+
+### Web Development Intern — Vue.js Frontend
+**Jun – Jul 2023**
+
+- Built component-based, mobile-responsive UIs using Vue.js
+- Learned component architecture and device-adaptive layouts
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| **Languages** | Python, JavaScript, TypeScript, Java, SQL, PHP |
+| **Frontend** | React.js, Next.js 15, HTML5, CSS3, Tailwind CSS, shadcn/ui, Framer Motion |
+| **Backend** | Node.js, REST APIs, Prisma ORM, Drizzle ORM, PostgreSQL, MySQL, MongoDB, NeonDB |
+| **AI / ML** | Groq AI, Anthropic API, TensorFlow, PyTorch, Edge Impulse |
+| **IoT** | ESP32-CAM, Arduino IDE, Blynk |
+| **DevOps** | Git, GitHub, Vercel, Netlify, GitHub Pages, Postman |
 
 ---
 
 ## 🎓 Education
 
-| Degree | Institution | Year |
-|--------|-------------|------|
-| **MCA** — Master of Computer Applications | Madurai Kamaraj University | 2024–2026 |
-| **B.Sc Computer Science** | Madurai Kamaraj University | 2021–2024 · GPA 7.73 |
+**Master of Computer Applications (2024–2026)**
+The Standard Fireworks Rajaratnam College for Women, Madurai Kamaraj University
+*Expected Graduation: May 2026*
+
+**Bachelor of Computer Science (2021–2024)**
+*Cumulative GPA: 7.73*
 
 ---
 
-## 🧰 Tech Stack
+## 📜 Certifications & Courses
 
-```
-Languages     →  Python  JavaScript  TypeScript  PHP  SQL  Java  Dart
-Frontend      →  React.js  Next.js 15  HTML5  CSS3  Tailwind CSS  Flutter
-Backend       →  Node.js  PHP  REST APIs  Prisma ORM
-Databases     →  MySQL  MongoDB
-AI / ML       →  TensorFlow  PyTorch  ZAI SDK  Edge Impulse
-IoT           →  ESP32-CAM  Arduino IDE  Blynk
-Tools         →  Git  GitHub  Vercel  Netlify  Postman  VS Code
-Design        →  Canva  Adobe Illustrator  shadcn/ui
-```
+- 🎨 Certification in Animation Technology
+- 🎨 Diploma in Animation Technology
+- 🤖 Fundamentals of Machine Learning and Artificial Intelligence — *Coursera*
+- 💬 Prompt Engineering for ChatGPT — *Great Learning*
+- 🐍 Python for Machine Learning — *Great Learning*
+- 📊 Data Visualization using Python — *Great Learning*
 
 ---
 
 ## 🏆 Leadership
 
-- 👑 **President, MCA Department** (2025–26) — Led 300 students
-- 🎓 **Class Representative**, 3rd Semester — Liaison for 30 students
+- 🎓 **President**, MCA Department (2026)
+- 🏛️ **Union Member** (2026)
+- 📋 **Class Representative**, 3rd Semester
 
 ---
 
-## 📬 Contact Me
+## 💡 Core Strengths
 
-| Platform | Link |
-|----------|------|
-| 📧 Email | gulsumbegamofficial@gmail.com |
-| 💼 LinkedIn | [linkedin.com/in/gulsumbegam](https://linkedin.com/in/gulsumbegam) |
-| 🐙 GitHub | [github.com/GulsumBegam](https://github.com/GulsumBegam) |
-| 🌐 Portfolio | [gulsumportfolio.github.io](https://gulsumportfolio.github.io) |
-| 📞 Phone | 9361061756 |
-| 📍 Location | Sattur, Virudhunagar, Tamil Nadu |
-
----
-
-## 🚀 How to Run Locally
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/GulsumBegam/portfolio.git
-
-# 2. Open the folder
-cd portfolio
-
-# 3. Open index.html in your browser
-# Just double-click index.html — no server needed!
-```
-
----
-
-## 📄 License
-
-This portfolio is open source — feel free to take inspiration! 😊
+`Empathetic & accountable` · `Strong leadership & communication` · `Focused, adaptable, quick learner` · `Innovative problem solver`
 
 ---
 
 <div align="center">
 
-Made with 💛 by **Gulsum Begam**
+📍 Sattur, Virudhunagar, TN · 📞 9361061756
 
-*Actively looking for Full Stack Developer roles in Chennai & Bangalore*
-
-⭐ If you like this portfolio, give it a star!
+*Open to Full-Stack Developer roles — let's build something great together.*
 
 </div>
