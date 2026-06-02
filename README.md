@@ -9,7 +9,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-GulsumBegam-181717?style=flat-square&logo=github)](https://github.com/GulsumBegam)
 [![Email](https://img.shields.io/badge/Email-gulsumbegamofficial@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:gulsumbegamofficial@gmail.com)
 
-> *MCA graduate (May 2026) shipping production-ready full-stack apps, AI-powered systems, and IoT solutions — from day one.*
+> *MCA Student graduating May 2026 shipping production-ready full-stack apps, AI-powered systems, and IoT solutions — from day one.*
 
 </div>
 
