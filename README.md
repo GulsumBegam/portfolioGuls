@@ -79,7 +79,7 @@ An AI-powered real-time attendance management system.
 A real hardware IoT Smart Fence with animal detection using ML.
 
 - **98% ML detection accuracy** for animal identification on physical ESP32-CAM hardware
-- Reduced crop damage by **80%** via automated alerts
+- Designed to reduce crop damage through automated animal detection and alerts.
 - Edge ML model trained and deployed on physical hardware — not a simulation
 
 ---
