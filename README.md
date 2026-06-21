@@ -4,7 +4,7 @@
 
 ### Full-Stack Developer · UI/UX Developer · Computer Vision Developer
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-gulsumportfolio.github.io-c8a96e?style=flat-square&logo=github)](https://gulsumbegam.github.io/portfolioGuls/)
+[![Portfolio](https://img.shields.io/badge/gulsumbegam.github.io/portfolioGuls-c8a96e?style=flat-square&logo=github)](https://gulsumbegam.github.io/portfolioGuls/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-gulsum--begam-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/gulsumbegam)
 [![GitHub](https://img.shields.io/badge/GitHub-GulsumBegam-181717?style=flat-square&logo=github)](https://github.com/GulsumBegam)
 [![Email](https://img.shields.io/badge/Email-gulsumbegamofficial@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:gulsumbegamofficial@gmail.com)
