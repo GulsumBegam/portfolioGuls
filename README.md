@@ -72,7 +72,7 @@ An AI-powered real-time attendance management system.
 ## 🧪 Academic Projects
 
 ### 🌿 Farmatron Sentinel
-[github.com/GulsumBegam/farmatron-sentinel](https://github.com/GulsumBegam/farmatron_sentinel)
+[github.com/GulsumBegam/farmatron_sentinel](https://github.com/GulsumBegam/farmatron_sentinel)
 
 `ESP32-CAM` `Arduino IDE` `Edge Impulse` `Blynk` `Embedded ML`
 
