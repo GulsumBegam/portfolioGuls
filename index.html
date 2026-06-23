@@ -400,7 +400,7 @@ footer{padding:2rem 3rem;border-top:1px solid var(--border);display:flex;justify
       <span class="avail-dot"></span>
       Open to full-time roles
     </div>
-    <div class="hero-tag">Full-Stack · UI/UX · Computer Vision Developer</div>
+    <div class="hero-tag">Full-Stack Developer · UI/UX · Computer Vision Developer</div>
     <h1 class="hero-name">Gulsum<br/><span>Begam.</span></h1>
     <div class="hero-roles">
       <span class="role-pill">Next.js 15</span>
@@ -455,7 +455,7 @@ footer{padding:2rem 3rem;border-top:1px solid var(--border);display:flex;justify
   </div>
   <div class="about-grid">
     <div class="about-text reveal">
-      <p>I'm a <strong>Full-Stack Developer</strong> from Madurai, Tamil Nadu, who builds things that actually ship. My work spans AI-integrated web apps, real-time IoT systems, and computer vision — all production-deployed and live.</p>
+      <p>I'm a <strong>Full-Stack Developer</strong> from Virudhunagar, Tamil Nadu, who builds things that actually ship. My work spans AI-integrated web apps, real-time IoT systems, and computer vision — all production-deployed and live.</p>
       <p>I recently completed my <strong>MCA from The Standard Fireworks Rajaratnam College for Women</strong>, Madurai Kamaraj University (May 2026). My final semester results are pending, and the official convocation/degree certificate will be issued in <strong>February 2027</strong> — standard university timeline.</p>
       <p>As <strong>MCA Department President</strong>, I led 300+ students — balancing technical builds with organizational responsibility. I've interned as a Full-Stack Developer, shipped a Login Portal to Netlify, and built AI products used by real users.</p>
       <div class="graduation-note">
@@ -571,7 +571,7 @@ footer{padding:2rem 3rem;border-top:1px solid var(--border);display:flex;justify
       </div>
       <div class="project-content">
         <div class="project-type">IoT · Machine Learning · Hardware</div>
-        <div class="project-name">Farmatron Sentinel (Nov 2025– Jan 2026) </div>
+        <div class="project-name">Farmatron Sentinel  (Nov 2025 – Jan 2026)</div>
         <p class="project-desc">Real hardware IoT system — Smart Fence with Animal Detection using Edge ML. 98% detection accuracy deployed on physical ESP32-CAM with automated Blynk mobile alerts.</p>
         <div class="project-tech">
           <span class="tech-tag">ESP32-CAM</span>
@@ -843,8 +843,8 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeResumeModal();}
 function showToast(msg){const t=document.getElementById('toast');document.getElementById('toastMsg').textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3200);}
 async function downloadResume(format){
   closeResumeModal();
-  if(format==='pdf'){const a=document.createElement('a');a.href='Gulsum_Begam_Resume.pdf';a.download='Gulsum_Begam_Resume.pdf';document.body.appendChild(a);a.click();document.body.removeChild(a);showToast('✅ Resume PDF downloaded!');}
-  else{showToast('⏳ Preparing image...');try{if(!window.pdfjsLib){await loadScript('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js');window.pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';}const pdfBytes=await fetch('Gulsum_Begam_Resume.pdf').then(r=>r.arrayBuffer());const pdf=await pdfjsLib.getDocument({data:pdfBytes}).promise;const page=await pdf.getPage(1);const scale=3;const vp=page.getViewport({scale});const canvas=document.createElement('canvas');canvas.width=vp.width;canvas.height=vp.height;const ctx=canvas.getContext('2d');await page.render({canvasContext:ctx,viewport:vp}).promise;const imgData=canvas.toDataURL('image/png');const a=document.createElement('a');a.href=imgData;a.download='Gulsum_Begam_Resume.png';document.body.appendChild(a);a.click();document.body.removeChild(a);showToast('✅ Resume PNG downloaded!');}catch(err){const a=document.createElement('a');a.href='Gulsum_Begam_Resume.pdf';a.download='Gulsum_Begam_Resume.pdf';document.body.appendChild(a);a.click();document.body.removeChild(a);showToast('✅ Resume downloaded!');}}
+  if(format==='pdf'){const a=document.createElement('a');a.href='Gulsum_Begam_A_resume.pdf';a.download='Gulsum_Begam_A_resume.pdf';document.body.appendChild(a);a.click();document.body.removeChild(a);showToast('✅ Resume PDF downloaded!');}
+  else{showToast('⏳ Preparing image...');try{if(!window.pdfjsLib){await loadScript('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js');window.pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';}const pdfBytes=await fetch('Gulsum_Begam_A_resume.pdf').then(r=>r.arrayBuffer());const pdf=await pdfjsLib.getDocument({data:pdfBytes}).promise;const page=await pdf.getPage(1);const scale=3;const vp=page.getViewport({scale});const canvas=document.createElement('canvas');canvas.width=vp.width;canvas.height=vp.height;const ctx=canvas.getContext('2d');await page.render({canvasContext:ctx,viewport:vp}).promise;const imgData=canvas.toDataURL('image/png');const a=document.createElement('a');a.href=imgData;a.download='Gulsum_Begam_Resume.png';document.body.appendChild(a);a.click();document.body.removeChild(a);showToast('✅ Resume PNG downloaded!');}catch(err){const a=document.createElement('a');a.href='Gulsum_Begam_A_resume.pdf';a.download='Gulsum_Begam_A_resume.pdf';document.body.appendChild(a);a.click();document.body.removeChild(a);showToast('✅ Resume downloaded!');}}
 }
 function loadScript(src){return new Promise((res,rej)=>{const s=document.createElement('script');s.src=src;s.onload=res;s.onerror=rej;document.head.appendChild(s);});}
 
